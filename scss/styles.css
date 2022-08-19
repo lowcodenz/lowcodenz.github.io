@@ -28,7 +28,7 @@ h3 {
   font-size: 57.6px;
   line-height: 56px; }
 
-p, a {
+p, a, ul, li {
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   line-height: 40px;
@@ -405,6 +405,16 @@ button {
   padding: 19.2px 51.2px;
   border: none; }
 
+.closer button {
+  background-color: #FF8A00;
+  font-size: 32px;
+  border-radius: 100px;
+  padding: 19.2px 51.2px;
+  border: none;
+  color: #fff !important;
+  min-height: auto;
+  font-family: inherit; }
+
 .icn-wrap {
   background-color: #FF8A00;
   width: 96px;
@@ -678,10 +688,14 @@ section.content-left h2 {
   text-align: left; }
 
 .closer.closer {
-  height: 500px; }
+  height: 500px;
+  text-align: center; }
 
 footer {
-  background-color: #222222; }
+  background-color: #222222;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 32px; }
 
 .animation {
   transition: all 0.8s; }
@@ -694,3 +708,8 @@ footer {
     opacity: 1;
     transform: none;
     transition-delay: 0.3s; }
+
+ul {
+  list-style: none; }
+
+/*# sourceMappingURL=styles.css.map */

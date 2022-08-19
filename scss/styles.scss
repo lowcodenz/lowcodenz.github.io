@@ -174,10 +174,14 @@ section.content-left{
 
 .closer.closer{
     height: 500px;
+    text-align: center;
 }
 
 footer{
     background-color: $cl-bg-black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 32px;
 }
 
 
@@ -200,3 +204,8 @@ footer{
       }
   }
   
+
+
+  ul{
+    list-style: none;
+  }
