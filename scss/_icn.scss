@@ -96,6 +96,13 @@
     @extend .gg-chevron-right;
 }
 
+.icn-code{
+    i{
+        @extend .gg-code-slash;
+    }
+    
+}
+
 //// HK icns
 .pagewrap-hk{
     .icn-price{
