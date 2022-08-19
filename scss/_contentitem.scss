@@ -1,0 +1,36 @@
+.content-item.col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .icn-wrap{
+        margin-bottom: $sz-spacing-default *.5;
+    }
+}
+
+.content-item.row-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .icn-wrap{
+        flex-grow: 0;
+        flex-shrink: 0;
+        margin-right: $sz-spacing-default *.5;
+        margin-bottom: $sz-spacing-default *.5;
+    }
+}
+
+.content-item.row-left{
+    .content{
+        position: relative;
+        .icn-link{
+            position: absolute;
+            right: 0;
+            top: 50%;
+            display: none;
+        }
+    }
+}

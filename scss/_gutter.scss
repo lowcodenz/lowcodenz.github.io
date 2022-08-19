@@ -1,0 +1,6 @@
+.gutters-md{
+    width: calc(100% - #{$sz-spacing-default} * 2);
+    max-width: $sz-breakpoint-desktop-large-xl;
+    margin: 0 auto;
+    padding: 0 $sz-spacing-default;
+}
