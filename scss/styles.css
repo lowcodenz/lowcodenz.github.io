@@ -548,6 +548,9 @@ header {
 .v02 {
   display: none; }
 
+.col-image .img-ui-composition {
+  top: -320px; }
+
 * {
   margin: 0;
   padding: 0; }
