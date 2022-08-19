@@ -13,10 +13,10 @@ fetch(RSS_URL)
     items.forEach(el => {
         title = el.querySelector("title").innerHTML;
         title =  title.replace("<![CDATA[", "").replace("]]>", "");
-        //console.log(title);
+        console.log(title);
 
         pubDate = el.querySelector("pubDate").innerHTML;
-        //console.log(pubDate);
+        console.log(pubDate);
 
         
 
