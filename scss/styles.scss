@@ -60,7 +60,12 @@ body {
     // overflow: hidden;
     // overflow-y: auto;
     // width: 100%;
-    // position: relative;
+     position: relative;
+}
+
+footer{
+    position: relative;
+    overflow: hidden;
 }
 
 .row {
@@ -149,7 +154,14 @@ section.intro{
         margin-top: 410px;
         margin-left: 125px;
     }
+
+    @media (max-width: $sz-breakpoint-desktop-large-xl) {
+        
+        display: none;
+    }
 }
+
+
 
 section.clientlogos{
     min-height: auto;

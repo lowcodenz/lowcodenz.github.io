@@ -66,6 +66,11 @@ nav{
         right: 70px;
         line-height: .11;
     }
+
+    @media (max-width: $sz-breakpoint-desktop-large-xl) {
+        
+        transform: scale(0.5);
+    }
 }
 
 .topnav{
