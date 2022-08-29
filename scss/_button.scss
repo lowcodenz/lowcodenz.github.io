@@ -11,6 +11,9 @@ button{
 .closer button{
     background-color: $cl-lowcode-orange;
     font-size: $sz-font-h3-size;
+    line-height: $sz-font-h3-lineheight;
+
+    margin-top: 32px;
     
     border-radius: 100px;
     padding: $sz-spacing-default * .3  $sz-spacing-default * .8;

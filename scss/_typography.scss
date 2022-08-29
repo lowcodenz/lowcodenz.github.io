@@ -19,6 +19,10 @@ h2{
     padding-bottom: 160px;
 }
 
+.closer h2{
+    padding-bottom: 0px;
+}
+
 section.clientlogos h2{
     font-size: $sz-font-h3-size;
     line-height: $sz-font-h3-lineheight;

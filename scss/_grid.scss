@@ -14,6 +14,10 @@
 .grid-2{
     @extend .grid; 
     grid-template-columns: repeat(auto-fill, 620px);
+
+    @media (max-width: $sz-breakpoint-desktop) { 
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .grid-3{

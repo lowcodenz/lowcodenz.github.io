@@ -64,8 +64,8 @@ body {
 }
 
 footer{
-    position: relative;
-    overflow: hidden;
+    //position: relative;
+    //overflow: hidden;
 }
 
 .row {
@@ -106,6 +106,7 @@ footer{
 
 section {
     min-height: 60vh;
+    height: 100%;
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
@@ -185,7 +186,7 @@ section.content-left{
 }
 
 .closer.closer{
-    height: 500px;
+    min-height: 500px;
     text-align: center;
 }
 

@@ -18,6 +18,10 @@ h2 {
   padding-bottom: 160px;
 }
 
+.closer h2 {
+  padding-bottom: 0px;
+}
+
 section.clientlogos h2 {
   font-size: 32px;
   line-height: 40px;
@@ -470,6 +474,8 @@ button {
 .closer button {
   background-color: #FF8A00;
   font-size: 32px;
+  line-height: 40px;
+  margin-top: 32px;
   border-radius: 100px;
   padding: 19.2px 51.2px;
   border: none;
@@ -638,6 +644,11 @@ header .header-wrap .content {
 .grid-2 {
   grid-template-columns: repeat(auto-fill, 620px);
 }
+@media (max-width: 992px) {
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 .grid-3 {
   grid-template-columns: repeat(1, 1fr);
@@ -734,11 +745,6 @@ body {
   position: relative;
 }
 
-footer {
-  position: relative;
-  overflow: hidden;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -766,6 +772,7 @@ footer {
 
 section {
   min-height: 60vh;
+  height: 100%;
   padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
@@ -828,7 +835,7 @@ section.content-left h2 {
 }
 
 .closer.closer {
-  height: 500px;
+  min-height: 500px;
   text-align: center;
 }
 
