@@ -1,0 +1,32 @@
+Hero Section
+Headline:
+“Enterprise Solutions That Actually Work for Kiwi Companies”
+Subhead:
+ Falling behind on compliance? Struggling with internal red tape? Just merged and now need to meet global standards? We help NZ companies fix problems fast—practical solutions, no fluff.
+CTA Buttons:
+“Grab a Coffee” – informal chat, zero pitch
+“See Real Results” – case studies & stories
+Why Lowcode NZ?
+We’re boots on the ground. We don’t do buzzwords. We solve problems.
+Practical, not theoretical: Tools and workflows your team can actually use.
+Enterprise-ready: Reporting, auditing, and compliance—done right.
+Kiwi mentality: Fast, pragmatic, no-nonsense.
+Trusted & Certified: Certified Mendix experts and official Siemens partner & reseller.
+How We Help
+Catch Up on Compliance
+ From audits to reporting, we make sure you meet enterprise requirements—without endless meetings.
+Cut Through Red Tape
+ Streamline workflows, automate approvals, and empower teams to innovate.
+Integrate After Mergers
+ Bring systems together, stay compliant, and scale efficiently after acquisitions.
+Proof in the Pudding
+Case Study: Local Manufacturer – Went from months of manual approvals to enterprise-grade workflows in under 4 weeks.
+Client Testimonial: “Fast, practical, and straight to the point. Exactly what we needed.”
+Enterprise Credibility Section (Optional Sidebar or Badge Strip)
+Certified Mendix Experts
+Official Siemens Partner & Reseller
+Trusted by NZ Enterprises Big and Small
+Next Steps
+No fluff, just real solutions:
+Grab a Coffee: Let’s talk your challenges—no pitch.
+Meetup: Join us at the next low-code meetup and see what works.
