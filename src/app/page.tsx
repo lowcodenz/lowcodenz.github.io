@@ -1,7 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
-import ClientLogos from '@/components/ClientLogos';
-import Services from '@/components/Services';
+import HowWeHelp from '@/components/HowWeHelp';
+import EnterpriseCredibility from '@/components/EnterpriseCredibility';
 import Contact from '@/components/Contact';
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
-      <ClientLogos />
-      <Services />
+      <HowWeHelp />
+      <EnterpriseCredibility />
       <Contact />
     </div>
   );
