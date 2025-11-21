@@ -1,70 +1,109 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
 export default function Hero() {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      requestAnimationFrame(() => {
+        setScrollY(window.scrollY);
+      });
+    };
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-20 lg:py-32">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          {/* Hero Section */}
-          <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-            Enterprise Solutions That Actually Work for{' '}
-            <span className="text-orange-500">Kiwi Companies</span>
-          </h1>
+    <section 
+      className="relative bg-gray-900 py-20 lg:py-32 overflow-hidden parallax-hero"
+      style={{
+        backgroundImage: "url('/images/hero/hero.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: `center ${scrollY * -0.3}px`,
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      {/* Radial gradient overlay for better text readability */}
+      <div 
+        className="absolute inset-0" 
+        style={{
+          background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%)'
+        }}
+      ></div>
+      
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Desktop: Side by Side, Mobile: Vertical */}
+        <div className="lg:grid lg:grid-cols-12 lg:gap-12 lg:items-center lg:min-h-[60vh]">
           
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-4xl mx-auto">
-            Falling behind on compliance? Struggling with internal red tape? 
-            Just merged and now need to meet global standards? We help NZ companies 
-            fix problems fast—practical solutions, no fluff.
-          </p>
+          {/* Hero Main Content - Left side on desktop */}
+          <div className="lg:col-span-7 text-center lg:text-left mb-16 lg:mb-0">
+            <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-6">
+              Enterprise Solutions That Actually Work for{' '}
+              <span className="text-orange-400">Kiwi Companies</span>
+            </h1>
+            
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed lg:max-w-none max-w-4xl mx-auto lg:mx-0">
+              Falling behind on compliance? Struggling with internal red tape? 
+              Just merged and now need to meet global standards? We help NZ companies 
+              fix problems fast—practical solutions, no fluff.
+            </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors">
-              Grab a Coffee
-            </button>
-            <button className="border border-gray-300 text-gray-700 hover:border-gray-400 hover:bg-gray-50 px-8 py-4 rounded-md font-medium text-lg transition-colors">
-              See Real Results
-            </button>
+            <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">
+              <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors">
+                Grab a Coffee
+              </button>
+              <button className="border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white px-8 py-4 rounded-md font-medium text-lg transition-colors">
+                See Real Results
+              </button>
+            </div>
           </div>
-        </div>
 
-        {/* Why Lowcode NZ Section */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-            Why Lowcode NZ?
-          </h2>
-          <p className="text-xl text-gray-700 mb-8 text-center font-medium">
-            We&apos;re boots on the ground. We don&apos;t do buzzwords. We solve problems.
-          </p>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🔧</span>
+          {/* Why Lowcode NZ Section - Right side on desktop */}
+          <div className="lg:col-span-5">
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg p-6 lg:p-8">
+              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 text-center">
+                Why Lowcode NZ?
+              </h2>
+              <p className="text-gray-700 mb-6 text-center font-medium">
+                We&apos;re boots on the ground. We don&apos;t do buzzwords. We solve problems.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-center">
+                  <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <span className="text-xl">🔧</span>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1 text-sm">Practical</h3>
+                  <p className="text-gray-600 text-xs">Tools that work</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <span className="text-xl">🏢</span>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1 text-sm">Enterprise-ready</h3>
+                  <p className="text-gray-600 text-xs">Compliance done right</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <span className="text-xl">🥝</span>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1 text-sm">Kiwi mentality</h3>
+                  <p className="text-gray-600 text-xs">No-nonsense</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <span className="text-xl">✓</span>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1 text-sm">Certified</h3>
+                  <p className="text-gray-600 text-xs">Mendix experts</p>
+                </div>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Practical, not theoretical</h3>
-              <p className="text-gray-600 text-sm">Tools and workflows your team can actually use</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🏢</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Enterprise-ready</h3>
-              <p className="text-gray-600 text-sm">Reporting, auditing, and compliance—done right</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🥝</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Kiwi mentality</h3>
-              <p className="text-gray-600 text-sm">Fast, pragmatic, no-nonsense</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">✓</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Trusted & Certified</h3>
-              <p className="text-gray-600 text-sm">Certified Mendix experts and official Siemens partner & reseller</p>
             </div>
           </div>
         </div>

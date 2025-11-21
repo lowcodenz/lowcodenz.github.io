@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth parallax background transitions */
+.parallax-hero {
+  background-attachment: fixed;
+  transition: background-position 0.01s ease-out;
+  will-change: background-position;
+}
+
+/* Global smooth transitions */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
