@@ -2,17 +2,17 @@ export default function EnterpriseCredibility() {
   const credentials = [
     {
       title: 'Certified Mendix Experts',
-      icon: '🎓',
+      icon: 'fa-sharp-duotone fa-light fa-graduation-cap',
       description: 'Official certification and deep expertise'
     },
     {
       title: 'Official Siemens Partner & Reseller',
-      icon: '🤝',
+      icon: 'fa-sharp-duotone fa-light fa-handshake',
       description: 'Authorized partner status'
     },
     {
       title: 'Trusted by NZ Enterprises Big and Small',
-      icon: '🏢',
+      icon: 'fa-sharp-duotone fa-light fa-building',
       description: 'Proven track record across company sizes'
     }
   ];
@@ -30,7 +30,7 @@ export default function EnterpriseCredibility() {
           {credentials.map((credential, index) => (
             <div key={index} className="text-center">
               <div className="bg-orange-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">{credential.icon}</span>
+                <i className={`${credential.icon} text-2xl text-white`}></i>
               </div>
               <h3 className="font-semibold text-lg mb-2">
                 {credential.title}

@@ -3,19 +3,19 @@ export default function Services() {
     {
       title: 'Catch Up on Compliance',
       description: 'From audits to reporting, we make sure you meet enterprise requirements—without endless meetings.',
-      icon: '📊',
+      icon: 'fa-sharp-duotone fa-light fa-chart-line',
       features: ['Automated reporting', 'Audit trails', 'Compliance dashboards']
     },
     {
       title: 'Cut Through Red Tape',
       description: 'Streamline workflows, automate approvals, and empower teams to innovate.',
-      icon: '⚡',
+      icon: 'fa-sharp-duotone fa-light fa-bolt',
       features: ['Workflow automation', 'Approval processes', 'Team empowerment']
     },
     {
       title: 'Integrate After Mergers',
       description: 'Bring systems together, stay compliant, and scale efficiently after acquisitions.',
-      icon: '🔄',
+      icon: 'fa-sharp-duotone fa-light fa-arrows-rotate',
       features: ['System integration', 'Data migration', 'Scalable solutions']
     },
   ];
@@ -24,27 +24,27 @@ export default function Services() {
     {
       title: 'Mendix Implementation Specialist',
       description: 'Bringing years of EU implementation experience to our humble corner of the world.',
-      icon: '🛠️'
+      icon: 'fa-sharp-duotone fa-light fa-screwdriver-wrench'
     },
     {
       title: 'Mendix Design System',
       description: 'The quickest way to achieve consistency and development speed is through a design system.',
-      icon: '🎨'
+      icon: 'fa-sharp-duotone fa-light fa-palette'
     },
     {
       title: 'Mendix Front End Training',
       description: 'Using the Utility Class Methodology everyone can style their applications.',
-      icon: '🎓'
+      icon: 'fa-sharp-duotone fa-light fa-graduation-cap'
     },
     {
       title: 'UX Design',
       description: 'Sometimes you just need a little bit of UX help, I can help.',
-      icon: '💡'
+      icon: 'fa-sharp-duotone fa-light fa-lightbulb'
     },
     {
       title: 'Traineeship',
       description: 'Do you want to become a lowcode developer? Or are you looking for more lowcode developers? We can help.',
-      icon: '🚀'
+      icon: 'fa-sharp-duotone fa-light fa-rocket'
     },
   ];
 
@@ -64,7 +64,9 @@ export default function Services() {
         <div className="grid lg:grid-cols-3 gap-8 mb-20">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="text-4xl mb-4 text-orange-500">
+                <i className={service.icon}></i>
+              </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {service.title}
               </h3>
@@ -74,9 +76,7 @@ export default function Services() {
               <ul className="space-y-2">
                 {service.features.map((feature, i) => (
                   <li key={i} className="flex items-center text-sm text-gray-600">
-                    <svg className="w-4 h-4 text-orange-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
+                    <i className="fa-sharp-duotone fa-light fa-circle-check w-4 h-4 text-orange-500 mr-2"></i>
                     {feature}
                   </li>
                 ))}
@@ -94,7 +94,9 @@ export default function Services() {
             {expertise.map((item, index) => (
               <div key={index} className="bg-white rounded-xl p-6 hover:shadow-md transition-shadow">
                 <div className="flex items-start space-x-4">
-                  <div className="text-2xl">{item.icon}</div>
+                  <div className="text-2xl text-orange-500">
+                    <i className={item.icon}></i>
+                  </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">
                       {item.title}

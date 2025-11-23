@@ -74,7 +74,7 @@ export default function Hero() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
                   <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                    <span className="text-xl">🔧</span>
+                    <i className="fa-sharp-duotone fa-light fa-wrench text-xl text-orange-500"></i>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1 text-sm">Practical</h3>
                   <p className="text-gray-600 text-xs">Tools that work</p>
@@ -82,7 +82,7 @@ export default function Hero() {
                 
                 <div className="text-center">
                   <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                    <span className="text-xl">🏢</span>
+                    <i className="fa-sharp-duotone fa-light fa-building text-xl text-orange-500"></i>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1 text-sm">Enterprise-ready</h3>
                   <p className="text-gray-600 text-xs">Compliance done right</p>
@@ -90,7 +90,7 @@ export default function Hero() {
                 
                 <div className="text-center">
                   <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                    <span className="text-xl">🥝</span>
+                    <i className="fa-sharp-duotone fa-light fa-kiwi-bird text-xl text-orange-500"></i>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1 text-sm">Kiwi mentality</h3>
                   <p className="text-gray-600 text-xs">No-nonsense</p>
@@ -98,7 +98,7 @@ export default function Hero() {
                 
                 <div className="text-center">
                   <div className="bg-orange-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                    <span className="text-xl">✓</span>
+                    <i className="fa-sharp-duotone fa-light fa-circle-check text-xl text-orange-500"></i>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1 text-sm">Certified</h3>
                   <p className="text-gray-600 text-xs">Mendix experts</p>

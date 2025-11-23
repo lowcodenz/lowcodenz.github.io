@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import LogoBanner from '@/components/LogoBanner';
 import HowWeHelp from '@/components/HowWeHelp';
 import EnterpriseCredibility from '@/components/EnterpriseCredibility';
 import Contact from '@/components/Contact';
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
+      <LogoBanner />
       <HowWeHelp />
       <EnterpriseCredibility />
       <Contact />
