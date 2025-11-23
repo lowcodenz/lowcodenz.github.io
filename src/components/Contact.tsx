@@ -15,7 +15,7 @@ export default function Contact() {
           {/* Grab a Coffee */}
           <div className="bg-orange-50 rounded-2xl p-8 text-center">
             <div className="bg-orange-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl text-white">☕</span>
+              <i className="fa-sharp-duotone fa-light fa-mug-hot text-2xl text-white"></i>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Grab a Coffee</h3>
             <p className="text-gray-700 mb-6">
@@ -29,7 +29,7 @@ export default function Contact() {
           {/* Meetup */}
           <div className="bg-gray-50 rounded-2xl p-8 text-center">
             <div className="bg-gray-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl text-white">👥</span>
+              <i className="fa-sharp-duotone fa-light fa-people-group text-2xl text-white"></i>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Meetup</h3>
             <p className="text-gray-700 mb-6">
@@ -76,7 +76,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>🔗</span>
+                  <i className="fa-brands fa-linkedin"></i>
                   <span>LinkedIn</span>
                 </a>
                 <a 
@@ -85,7 +85,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>🎨</span>
+                  <i className="fa-brands fa-dribbble"></i>
                   <span>Dribbble</span>
                 </a>
                 <a 
@@ -94,7 +94,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>📝</span>
+                  <i className="fa-brands fa-medium"></i>
                   <span>Medium</span>
                 </a>
                 <a 
@@ -103,7 +103,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span>🎙️</span>
+                  <i className="fa-sharp-duotone fa-light fa-podcast"></i>
                   <span>Podcast</span>
                 </a>
               </div>

@@ -3,17 +3,17 @@ export default function HowWeHelp() {
     {
       title: 'Catch Up on Compliance',
       description: 'From audits to reporting, we make sure you meet enterprise requirements—without endless meetings.',
-      icon: '📊',
+      icon: 'fa-sharp-duotone fa-light fa-chart-line',
     },
     {
       title: 'Cut Through Red Tape',
       description: 'Streamline workflows, automate approvals, and empower teams to innovate.',
-      icon: '⚡',
+      icon: 'fa-sharp-duotone fa-light fa-bolt',
     },
     {
       title: 'Integrate After Mergers',
       description: 'Bring systems together, stay compliant, and scale efficiently after acquisitions.',
-      icon: '🔄',
+      icon: 'fa-sharp-duotone fa-light fa-arrows-rotate',
     },
   ];
 
@@ -29,7 +29,9 @@ export default function HowWeHelp() {
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="text-4xl mb-4 text-orange-500">
+                <i className={service.icon}></i>
+              </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {service.title}
               </h3>
