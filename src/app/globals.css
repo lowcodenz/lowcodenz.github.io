@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300..900&display=swap');
 @import "tailwindcss";
 
 html {
@@ -14,6 +15,12 @@ html {
 /* Global smooth transitions */
 * {
   transition: all 0.3s ease-in-out;
+}
+
+/* Apply Montserrat font to headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 

@@ -41,14 +41,15 @@ export default function Hero() {
           {/* Hero Main Content - Left side on desktop */}
           <div className="lg:col-span-7 text-center lg:text-left mb-16 lg:mb-0">
             <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Enterprise Solutions That Actually Work for{' '}
+              Enterprise Solutions for{' '}
               <span className="text-orange-400">Kiwi Companies</span>
             </h1>
             
             <p className="text-xl text-gray-200 mb-8 leading-relaxed lg:max-w-none max-w-4xl mx-auto lg:mx-0">
-              Falling behind on compliance? Struggling with internal red tape? 
-              Just merged and now need to meet global standards? We help NZ companies 
-              fix problems fast—practical solutions, no fluff.
+              Need to seize a time sensitive opportunity? <br/>
+              Recently aquired? and need to meet enterprise complience?<br/>
+              Still working on paper? <br/>
+              We help NZ companies fix problems fast, practical solutions, no fluff.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">

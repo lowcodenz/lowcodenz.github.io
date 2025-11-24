@@ -11,8 +11,11 @@ export default function LogoBanner() {
   return (
     <section className="py-12 bg-gray-50 border-y border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-center text-gray-600 mb-8 font-medium">
+        <p className="text-center text-gray-600 mb-1 font-medium leading-tight">
           Trusted by enterprises all over the world.
+        </p>
+        <p className="text-center text-gray-400 text-sm mb-8 leading-tight">
+          (help us add some kiwi logos)
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
