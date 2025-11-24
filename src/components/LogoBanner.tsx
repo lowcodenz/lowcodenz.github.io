@@ -1,11 +1,11 @@
 export default function LogoBanner() {
   const logos = [
-    { name: 'ING', src: '/images/logos/ing.svg' },
-    { name: 'Vodafone', src: '/images/logos/vodafone.svg' },
-    { name: 'Vattenfall', src: '/images/logos/vattenfall.svg' },
-    { name: 'Kühne + Nagel', src: '/images/logos/keuhne nagel.svg' },
-    { name: 'Stockholm Stad', src: '/images/logos/stockholmsstad.svg' },
-    { name: 'FC', src: '/images/logos/FC.svg' },
+    { name: 'ING', src: '/images/logos/ing.svg', industry: 'Finance' },
+    { name: 'Vodafone', src: '/images/logos/vodafone.svg', industry: 'Telecommunications' },
+    { name: 'Vattenfall', src: '/images/logos/vattenfall.svg', industry: 'Energy' },
+    { name: 'Kühne + Nagel', src: '/images/logos/keuhne nagel.svg', industry: 'Logistics' },
+    { name: 'Stockholm Stad', src: '/images/logos/stockholmsstad.svg', industry: 'Government' },
+    { name: 'FC', src: '/images/logos/FC.svg', industry: 'Diary' },
   ];
 
   return (
@@ -22,13 +22,16 @@ export default function LogoBanner() {
           {logos.map((logo, index) => (
             <div 
               key={index} 
-              className="flex items-center justify-center grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100"
+              className="flex flex-col items-center justify-center grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100"
             >
               <img 
                 src={logo.src} 
                 alt={logo.name}
-                className="h-12 w-auto object-contain"
+                className="h-12 w-auto object-contain mb-2"
               />
+              <span className="text-xs text-gray-500 text-center">
+                {logo.industry}
+              </span>
             </div>
           ))}
         </div>

@@ -91,15 +91,13 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-2">Email</h4>
                   <div className="space-y-1">
-                    <p>jason.teunissen@lowcode.co.nz</p>
-                    <p>kitti.bradley@lowcode.co.nz</p>
+                    <p>hi@lowcode.co.nz</p>
                   </div>
                 </div>
 
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-2">Address</h4>
                   <p>
-                    6 Baxter Place<br />
                     Stoke, Nelson 7011<br />
                     New Zealand
                   </p>
