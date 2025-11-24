@@ -18,17 +18,17 @@ export default function HowWeHelp() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             How We Help
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10">
             We build bespoke software solutions that meet stringent enterprise and regulatory requirements. 
             Every application is designed for compliance, security, and scalability—without sacrificing speed or flexibility.
           </p>
-          <div className="bg-gray-50 rounded-xl p-6 max-w-4xl mx-auto">
+          <div className="bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
             <p className="text-gray-700 leading-relaxed">
               Whether you're dealing with SOC 2, ISO 27001, GDPR, or industry-specific regulations, 
               our low-code approach ensures full audit trails, role-based access controls, data encryption, 
@@ -37,7 +37,7 @@ export default function HowWeHelp() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-3 gap-10 mb-20">
           {services.map((service, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4 text-orange-500">
