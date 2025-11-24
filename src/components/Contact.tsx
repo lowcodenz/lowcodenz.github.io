@@ -4,10 +4,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Next Steps
+            Let&apos;s Chat
           </h2>
           <p className="text-xl text-gray-600">
-            No fluff, just real solutions:
+            Online, in real life, or find us at a meetup.
           </p>
         </div>
 
@@ -27,17 +27,57 @@ export default function Contact() {
           </div>
 
           {/* Meetup */}
-          <div className="bg-gray-50 rounded-2xl p-8 text-center">
-            <div className="bg-gray-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <i className="fa-sharp-duotone fa-light fa-people-group text-2xl text-white"></i>
+          <div className="bg-gray-50 rounded-2xl overflow-hidden">
+            <a 
+              href="https://www.meetup.com/mendix-anz/events/312069824/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group"
+            >
+              <div className="aspect-video w-full overflow-hidden bg-gray-200">
+                <img 
+                  src="/images/202512meetup.avif" 
+                  alt="Debunking Lowcode Myths Brunch"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </a>
+            <div className="p-8">
+              <div className="flex flex-wrap gap-2 mb-3">
+                <div className="inline-block bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded">
+                  LOWCODE MEET-UP
+                </div>
+                <div className="inline-flex items-center gap-1 bg-gray-200 text-gray-900 text-xs font-bold px-3 py-1 rounded">
+                  <i className="fa-sharp-duotone fa-light fa-location-dot"></i>
+                  MT MAUNGANUI
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Debunking Lowcode Myths Brunch</h3>
+              <p className="text-gray-700 mb-4">
+                Join Scott from McLeod Cranes, Jason & Kitti from Lowcode NZ, and the ANZ community for an engaging 
+                brunch where we tackle common lowcode misconceptions and share real-world implementation insights.
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="flex items-center gap-2 text-sm text-gray-600">
+                  <i className="fa-sharp-duotone fa-light fa-calendar"></i>
+                  <span>11 DEC 2025 | 11 AM NZ TIME</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-gray-600">
+                  <i className="fa-sharp-duotone fa-light fa-location-dot"></i>
+                  <span>Mt Maunganui</span>
+                </div>
+              </div>
+              <a 
+                href="https://www.meetup.com/mendix-anz/events/312069824/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full"
+              >
+                <button className="border border-gray-300 text-gray-700 hover:border-gray-400 hover:bg-gray-100 px-8 py-4 rounded-md font-medium text-lg transition-colors w-full">
+                  RSVP on Meetup.com
+                </button>
+              </a>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Meetup</h3>
-            <p className="text-gray-700 mb-6">
-              Join us at the next low-code meetup and see what works.
-            </p>
-            <button className="border border-gray-300 text-gray-700 hover:border-gray-400 hover:bg-gray-100 px-8 py-4 rounded-md font-medium text-lg transition-colors w-full">
-              Join Next Meetup
-            </button>
           </div>
         </div>
 
@@ -59,7 +99,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-orange-400 mb-2">Address</h4>
                   <p>
-                    10 Venice Place<br />
+                    6 Baxter Place<br />
                     Stoke, Nelson 7011<br />
                     New Zealand
                   </p>

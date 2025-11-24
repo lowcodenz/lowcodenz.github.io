@@ -18,7 +18,7 @@ export default function EnterpriseCredibility() {
               className="block"
             >
               <img 
-                src="/images/2025Gartner.png" 
+                src="/images/2025Gartnerquadrant.png" 
                 alt="Gartner Report 2025"
                 className="w-full max-w-md mx-auto lg:mx-0 hover:opacity-90 transition-opacity"
               />
@@ -28,8 +28,8 @@ export default function EnterpriseCredibility() {
                 Recognized by Gartner
               </h3>
               <p className="text-gray-300 mb-4">
-                Mendix has been positioned as a Leader in the 2025 Gartner® Magic Quadrant™ for Enterprise Low-Code Application Platforms. 
-                As certified Mendix experts and official Siemens partners, we bring this enterprise-grade technology to New Zealand businesses.
+                Mendix has been positioned as a Leader in the 2025 Gartner® Magic Quadrant™ for Enterprise Low-Code Application Platforms 
+                for 9 consecutive years. As certified Mendix experts and official Siemens partners, we bring this enterprise-grade technology to New Zealand businesses.
               </p>
               <a 
                 href="https://www.gartner.com/doc/reprints?id=1-2LJ2SZQ2&ct=250725&st=sb"
@@ -48,11 +48,11 @@ export default function EnterpriseCredibility() {
             {/* Mendix Partner */}
             <div className="bg-gray-800 rounded-xl p-6">
               <div className="flex items-start gap-4">
-                <div className="bg-orange-500 rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0">
+                <div className="bg-white rounded-lg w-16 h-16 flex items-center justify-center flex-shrink-0 p-2">
                   <img 
-                    src="/images/Expert-min.png" 
-                    alt="Mendix Expert"
-                    className="w-12 h-12 object-contain"
+                    src="/images/mendixlogo2025.svg" 
+                    alt="Mendix Logo"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
@@ -73,8 +73,13 @@ export default function EnterpriseCredibility() {
             {/* Siemens Partner */}
             <div className="bg-gray-800 rounded-xl p-6">
               <div className="flex items-start gap-4">
-                <div className="bg-orange-500 rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0">
-                  <i className="fa-sharp-duotone fa-light fa-handshake text-2xl text-white"></i>
+                <div className="bg-white rounded-lg w-16 h-16 flex items-center justify-center flex-shrink-0 p-2">
+                  <img 
+                    src="/images/siemenslogo2025.svg" 
+                    alt="Siemens Logo"
+                    className="w-full h-full object-contain"
+                    style={{ filter: 'brightness(0)' }}
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">

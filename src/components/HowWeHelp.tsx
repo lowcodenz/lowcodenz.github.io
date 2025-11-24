@@ -1,29 +1,40 @@
 export default function HowWeHelp() {
   const services = [
     {
-      title: 'Catch Up on Compliance',
-      description: 'From audits to reporting, we make sure you meet enterprise requirements—without endless meetings.',
-      icon: 'fa-sharp-duotone fa-light fa-chart-line',
+      title: 'Connect the Moving Parts',
+      description: 'IoT sensors, legacy systems, Power BI dashboards—we integrate everything so your data flows seamlessly to quality managers, analysts, and decision-makers.',
+      icon: 'fa-sharp-duotone fa-light fa-diagram-project',
     },
     {
-      title: 'Cut Through Red Tape',
-      description: 'Streamline workflows, automate approvals, and empower teams to innovate.',
-      icon: 'fa-sharp-duotone fa-light fa-bolt',
+      title: 'Digitize Your Processes',
+      description: 'Transform paper forms and Excel spreadsheets into robust apps that work seamlessly within your company. Reduce shadow IT, understand actual processes, and uncover optimization opportunities.',
+      icon: 'fa-sharp-duotone fa-light fa-file-arrow-up',
     },
     {
-      title: 'Integrate After Mergers',
-      description: 'Bring systems together, stay compliant, and scale efficiently after acquisitions.',
-      icon: 'fa-sharp-duotone fa-light fa-arrows-rotate',
+      title: 'Integrate After Acquisition',
+      description: 'Just been acquired? Suddenly facing new compliance requirements and enterprise standards? We help you meet parent company expectations while maintaining operational continuity.',
+      icon: 'fa-sharp-duotone fa-light fa-handshake-simple',
     },
   ];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
             How We Help
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            We build bespoke software solutions that meet stringent enterprise and regulatory requirements. 
+            Every application is designed for compliance, security, and scalability—without sacrificing speed or flexibility.
+          </p>
+          <div className="bg-gray-50 rounded-xl p-6 max-w-4xl mx-auto">
+            <p className="text-gray-700 leading-relaxed">
+              Whether you're dealing with SOC 2, ISO 27001, GDPR, or industry-specific regulations, 
+              our low-code approach ensures full audit trails, role-based access controls, data encryption, 
+              and automated compliance reporting. You get enterprise-grade governance built in from day one.
+            </p>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
