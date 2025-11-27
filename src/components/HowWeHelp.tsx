@@ -4,16 +4,19 @@ export default function HowWeHelp() {
       title: 'Connect the Moving Parts',
       description: 'IoT sensors, legacy systems, Power BI dashboards—we integrate everything so your data flows seamlessly to quality managers, analysts, and decision-makers.',
       icon: 'fa-sharp-duotone fa-light fa-diagram-project',
+      iconColor: 'text-blue-500',
     },
     {
       title: 'Digitize Your Processes',
       description: 'Transform paper forms and Excel spreadsheets into robust apps that work seamlessly within your company. Reduce shadow IT, understand actual processes, and uncover optimization opportunities.',
       icon: 'fa-sharp-duotone fa-light fa-file-arrow-up',
+      iconColor: 'text-green-500',
     },
     {
       title: 'Integrate After Acquisition',
       description: 'Just been acquired? Suddenly facing new compliance requirements and enterprise standards? We help you meet parent company expectations while maintaining operational continuity.',
       icon: 'fa-sharp-duotone fa-light fa-handshake-simple',
+      iconColor: 'text-orange-500',
     },
   ];
 
@@ -40,7 +43,7 @@ export default function HowWeHelp() {
         <div className="grid lg:grid-cols-3 gap-10 mb-20">
           {services.map((service, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4 text-orange-500">
+              <div className={`text-4xl mb-4 ${service.iconColor}`}>
                 <i className={service.icon}></i>
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-3">
