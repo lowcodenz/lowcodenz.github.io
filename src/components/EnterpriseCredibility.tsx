@@ -20,12 +20,6 @@ export default function EnterpriseCredibility() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-semibold mb-2">
-            Enterprise Credibility
-          </h2>
-        </div>
-
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Gartner */}
           <div className="text-center lg:text-left">
@@ -63,6 +57,12 @@ export default function EnterpriseCredibility() {
 
           {/* Right Column - Mendix & Siemens */}
           <div className="space-y-8">
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold mb-2">
+                Enterprise Credibility
+              </h2>
+            </div>
+
             {/* Mendix Partner */}
             <div className="bg-gray-800 rounded-xl p-6">
               <div className="flex items-start gap-4">

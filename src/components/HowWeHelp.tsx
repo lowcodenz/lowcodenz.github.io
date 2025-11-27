@@ -21,15 +21,15 @@ export default function HowWeHelp() {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             How We Help
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10">
-            We build bespoke software solutions that meet stringent enterprise and regulatory requirements. 
+          <p className="text-2xl text-gray-600 max-w-3xl mx-auto mb-10">
+            As enterprise software partners we build bespoke software solutions that meet stringent enterprise and regulatory requirements. 
             Every application is designed for compliance, security, and scalability—without sacrificing speed or flexibility.
           </p>
           <div className="bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed">
               Whether you're dealing with SOC 2, ISO 27001, GDPR, or industry-specific regulations, 
               our low-code approach ensures full audit trails, role-based access controls, data encryption, 
               and automated compliance reporting. You get enterprise-grade governance built in from day one.
@@ -43,10 +43,10 @@ export default function HowWeHelp() {
               <div className="text-4xl mb-4 text-orange-500">
                 <i className={service.icon}></i>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-3">
                 {service.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-lg text-gray-600 leading-relaxed">
                 {service.description}
               </p>
             </div>
@@ -56,37 +56,36 @@ export default function HowWeHelp() {
         {/* Proof in the Pudding */}
         <div className="bg-orange-50 rounded-2xl p-8 lg:p-12">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">
               Proof in the Pudding
             </h3>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">
                 Case Study: Local Manufacturer
               </h4>
-              <p className="text-gray-700 mb-6">
-                Went from months of manual approvals to enterprise-grade workflows in under 4 weeks.
-              </p>
-              <blockquote className="border-l-4 border-orange-500 pl-6 text-gray-700 italic text-lg">
-                &ldquo;Fast, practical, and straight to the point. Exactly what we needed.&rdquo;
+              <p className="text-lg text-gray-700 mb-6">
+Before the project was even finished, we identified data anomalies that prevented over 10 tons of product from going to landfill and saving the client more than 15× our project cost.              </p>
+              <blockquote className="border-l-4 border-orange-500 pl-6 text-gray-700 italic text-xl">
+                &ldquo;We didnt get what we asked for, we got something better.&rdquo;
               </blockquote>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-md">
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-green-50 rounded-lg">
-                  <div className="text-2xl font-bold text-green-600">163%</div>
-                  <div className="text-sm text-gray-600">Increase in acquisition</div>
+                  <div className="text-2xl font-bold text-green-600">10+ tons</div>
+                  <div className="text-sm text-gray-600">Product saved from landfill</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">60%</div>
-                  <div className="text-sm text-gray-600">Reduction in costs</div>
+                  <div className="text-2xl font-bold text-blue-600">15×</div>
+                  <div className="text-sm text-gray-600">ROI on project cost</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 rounded-lg col-span-2">
-                  <div className="text-2xl font-bold text-orange-600">4 weeks</div>
-                  <div className="text-sm text-gray-600">From manual to automated</div>
+                  <div className="text-2xl font-bold text-orange-600">During build</div>
+                  <div className="text-sm text-gray-600">Value identified before completion</div>
                 </div>
               </div>
             </div>
