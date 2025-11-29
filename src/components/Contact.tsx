@@ -13,18 +13,36 @@ export default function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           {/* Grab a Coffee */}
-          <div className="bg-orange-50 rounded-2xl p-8 text-center">
+          <div className="bg-orange-50 rounded-2xl p-8">
             <div className="bg-orange-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
               <i className="fa-sharp-duotone fa-light fa-mug-hot text-2xl text-white"></i>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Grab a Coffee</h3>
-            <p className="text-gray-700 mb-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Grab a Coffee</h3>
+            <p className="text-gray-700 mb-6 text-center">
               Let&apos;s talk your challenges—no pitch.
             </p>
-            {/* TODO: Add contact form/calendar link */}
-            {/* <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors w-full">
-              Schedule a Chat
-            </button> */}
+            
+            <div className="space-y-3">
+              <a 
+                href="mailto:hi@lowcode.nz"
+                className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors border border-gray-200"
+              >
+                <i className="fa-sharp-duotone fa-light fa-envelope text-xl text-orange-500"></i>
+                <span>hi@lowcode.nz</span>
+              </a>
+              
+              <a 
+                href="https://www.linkedin.com/in/jason-teunissen-537a9327"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors border border-gray-200"
+              >
+                <i className="fa-brands fa-linkedin text-xl text-orange-500"></i>
+                <span>Connect on LinkedIn</span>
+              </a>
+              
+
+            </div>
           </div>
 
           {/* Meetup */}
