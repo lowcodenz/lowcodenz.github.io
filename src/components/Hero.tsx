@@ -19,13 +19,23 @@ export default function Hero() {
   return (
     <section 
       className="relative bg-gray-900 py-20 lg:py-32 overflow-hidden parallax-hero"
-      style={{
-        backgroundImage: "url('/images/hero/hero.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: `center ${scrollY * -0.3}px`,
-        backgroundRepeat: 'no-repeat'
-      }}
     >
+      {/* Background image layer - rotated */}
+      <div 
+        className="absolute  pointer-events-none parallax-hero"
+        style={{
+          backgroundImage: "url('/images/hero/hero.png')",
+          backgroundSize: 'auto 100%',
+          backgroundPosition: 'right center',
+          backgroundRepeat: 'no-repeat',
+          transform: 'rotate(-13deg) scale(1.1)',
+          transformOrigin: 'right center',
+          top: `${scrollY * 0.3 -200}px`,
+          height: '100%',
+          width: '100%',  
+        }}
+      ></div>
+
       {/* Radial gradient overlay for better text readability */}
       <div 
         className="absolute inset-0" 
