@@ -60,7 +60,7 @@ export default function Hero() {
               Recently aquired? and need to meet enterprise complience?<br/>
               Still working on paper? <br/>
               <br/>
-              We help NZ companies.
+              We help NZ companies take the surprise out of enterprise.
             </p>
 
             {/* TODO: Add links when pages are ready */}
