@@ -53,14 +53,15 @@ export default function Hero() {
               We help NZ companies.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">
+            {/* TODO: Add links when pages are ready */}
+            {/* <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">
               <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors">
                 Grab a Coffee
               </button>
               <button className="bg-white/20 backdrop-blur-md border border-white/30 text-white hover:bg-white/30 px-8 py-4 rounded-md font-medium text-lg transition-colors">
                 See Real Results
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Why Lowcode NZ Section - Right side on desktop */}

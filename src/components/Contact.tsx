@@ -21,9 +21,10 @@ export default function Contact() {
             <p className="text-gray-700 mb-6">
               Let&apos;s talk your challenges—no pitch.
             </p>
-            <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors w-full">
+            {/* TODO: Add contact form/calendar link */}
+            {/* <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors w-full">
               Schedule a Chat
-            </button>
+            </button> */}
           </div>
 
           {/* Meetup */}

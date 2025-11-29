@@ -28,7 +28,8 @@ export default function Navigation() {
             >
               Home
             </Link>
-            <Link 
+            {/* TODO: Add when pages are ready */}
+            {/* <Link 
               href="/services" 
               className="text-gray-700 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors"
             >
@@ -45,7 +46,7 @@ export default function Navigation() {
               className="bg-orange-500 text-white hover:bg-orange-600 px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Grab a Coffee
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile menu button */}
@@ -69,7 +70,8 @@ export default function Navigation() {
               >
                 Home
               </Link>
-              <Link 
+              {/* TODO: Add when pages are ready */}
+              {/* <Link 
                 href="/services" 
                 className="text-gray-700 hover:text-orange-500 block px-3 py-2 text-base font-medium"
               >
@@ -86,7 +88,7 @@ export default function Navigation() {
                 className="bg-orange-500 text-white hover:bg-orange-600 block px-3 py-2 rounded-md text-base font-medium mt-2"
               >
                 Grab a Coffee
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}
