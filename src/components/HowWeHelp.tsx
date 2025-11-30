@@ -55,45 +55,6 @@ export default function HowWeHelp() {
             </div>
           ))}
         </div>
-
-        {/* Proof in the Pudding */}
-        <div className="bg-orange-50 rounded-2xl p-8 lg:p-12">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              Proof in the Pudding
-            </h3>
-          </div>
-          
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">
-                Case Study: Local Manufacturer
-              </h4>
-              <p className="text-lg text-gray-700 mb-6">
-Before the project was even finished, we identified data anomalies that prevented over 10 tons of product from going to landfill and saving the client more than 15× our project cost.              </p>
-              <blockquote className="border-l-4 border-orange-500 pl-6 text-gray-700 italic text-xl">
-                &ldquo;We didnt get what we asked for, we got something better.&rdquo;
-              </blockquote>
-            </div>
-            
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="text-center p-4 bg-green-50 rounded-lg">
-                  <div className="text-2xl font-bold text-green-600">10+ tons</div>
-                  <div className="text-sm text-gray-600">Product saved from landfill</div>
-                </div>
-                <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">15×</div>
-                  <div className="text-sm text-gray-600">ROI on project cost</div>
-                </div>
-                <div className="text-center p-4 bg-orange-50 rounded-lg col-span-2">
-                  <div className="text-2xl font-bold text-orange-600">During build</div>
-                  <div className="text-sm text-gray-600">Value identified before completion</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

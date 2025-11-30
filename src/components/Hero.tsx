@@ -84,7 +84,7 @@ export default function Hero() {
                 Why Lowcode NZ?
               </h2>
               <p className="text-lg text-white/90 mb-6 font-medium">
-                We&apos;re boots on the ground. Practical hands on software partners.
+                Your boots on the ground, software innovation partners.
               </p>
               
               <div className="space-y-7">
@@ -108,7 +108,7 @@ export default function Hero() {
                   <i className="fa-light fa-chart-line-up text-2xl text-white/60"></i>
                   <div>
                     <h3 className="font-semibold text-white mb-0 text-base">Lower cost, lower risk</h3>
-                    <p className="text-white/80 text-sm">Start small, deliver value, identify opportynities, repeat.</p>
+                    <p className="text-white/80 text-sm">Start small, deliver value, identify opportunities, repeat.</p>
                   </div>
                 </div>
                 
