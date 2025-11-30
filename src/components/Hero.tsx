@@ -18,7 +18,10 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative bg-gray-900 py-20 lg:py-32 overflow-hidden parallax-hero"
+      className="relative py-20 lg:py-32 overflow-hidden parallax-hero"
+      style={{
+        background: 'linear-gradient(135deg, rgba(30, 27, 75, 1) 0%, rgba(50, 40, 90, 1) 50%, rgba(40, 35, 80, 1) 100%)'
+      }}
     >
       {/* Background image layer - rotated */}
       <div 
@@ -40,7 +43,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0" 
         style={{
-          background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%)'
+          background: 'linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)'
         }}
       ></div>
       
@@ -76,7 +79,7 @@ export default function Hero() {
 
           {/* Why Lowcode NZ Section - Right side on desktop */}
           <div className="lg:col-span-5">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl shadow-lg p-6 lg:p-8 border border-white/20">
+            <div className="bg-black/10 backdrop-blur-md rounded-2xl shadow-lg p-6 lg:p-8 border border-black/20">
               <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4 text-center">
                 Why Lowcode NZ?
               </h2>
