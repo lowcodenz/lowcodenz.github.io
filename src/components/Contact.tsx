@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Grab a Coffee</h3>
             <p className="text-gray-700 mb-6 text-center">
-              Let&apos;s talk your challenges—no pitch.
+              Whether you&apos;re curious about lowcode, have a project in mind, or just want to chat about the latest tech trends, we&apos;d love to connect over a coffee.
             </p>
             
             <div className="space-y-3">
