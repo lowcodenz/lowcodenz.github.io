@@ -79,43 +79,43 @@ export default function Hero() {
 
           {/* Why Lowcode NZ Section - Right side on desktop */}
           <div className="lg:col-span-5">
-            <div className="bg-black/10 backdrop-blur-md rounded-2xl shadow-lg p-6 lg:p-8 border border-black/20">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4 text-center">
+            <div className="bg-black/50 backdrop-blur-md rounded-2xl shadow-lg p-6 lg:p-8 border border-black/20">
+              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-2">
                 Why Lowcode NZ?
               </h2>
-              <p className="text-lg text-white/90 mb-6 text-center font-medium">
+              <p className="text-lg text-white/90 mb-6 font-medium">
                 We&apos;re boots on the ground. Practical hands on software partners.
               </p>
               
-              <div className="space-y-4">
+              <div className="space-y-7">
                 <div className="flex items-center gap-4">
-                  <i className="fa-sharp-duotone fa-light fa-wrench text-2xl text-white"></i>
+                  <i className="fa-light fa-bolt text-2xl text-white/60"></i>
                   <div>
-                    <h3 className="font-semibold text-white mb-1 text-base">Practical</h3>
-                    <p className="text-white/80 text-sm">Tools that work</p>
+                    <h3 className="font-semibold text-white mb-0 text-base">Build Faster</h3>
+                    <p className="text-white/80 text-sm">From idea to working app in weeks, not months.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <i className="fa-sharp-duotone fa-light fa-building text-2xl text-white"></i>
+                  <i className="fa-light fa-kiwi-bird text-2xl text-white/60"></i>
                   <div>
-                    <h3 className="font-semibold text-white mb-1 text-base">Enterprise-ready</h3>
-                    <p className="text-white/80 text-sm">Compliance done right</p>
+                    <h3 className="font-semibold text-white mb-0 text-base">Local expertise</h3>
+                    <p className="text-white/80 text-sm">NZ-based developers who understand NZ business language.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <i className="fa-sharp-duotone fa-light fa-kiwi-bird text-2xl text-white"></i>
+                  <i className="fa-light fa-chart-line-up text-2xl text-white/60"></i>
                   <div>
-                    <h3 className="font-semibold text-white mb-1 text-base">Kiwi mentality</h3>
-                    <p className="text-white/80 text-sm">No-nonsense</p>
+                    <h3 className="font-semibold text-white mb-0 text-base">Lower cost, lower risk</h3>
+                    <p className="text-white/80 text-sm">Start small, deliver value, identify opportynities, repeat.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <i className="fa-sharp-duotone fa-light fa-circle-check text-2xl text-white"></i>
+                  <i className="fa-light fa-circle-check text-2xl text-white/60"></i>
                   <div>
-                    <h3 className="font-semibold text-white mb-1 text-base">Certified</h3>
+                    <h3 className="font-semibold text-white mb-0 text-base">Certified</h3>
                     <p className="text-white/80 text-sm">Mendix experts</p>
                   </div>
                 </div>
