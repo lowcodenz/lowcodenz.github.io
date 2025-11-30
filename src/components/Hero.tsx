@@ -43,7 +43,15 @@ export default function Hero() {
       <div 
         className="absolute inset-0" 
         style={{
-          background: 'linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)'
+          background: 'linear-gradient(135deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.9) 100%)'
+        }}
+      ></div>
+      
+      {/* Darker overlay for mobile only */}
+      <div 
+        className="absolute inset-0 lg:hidden" 
+        style={{
+          background: 'rgba(0,0,0,0.7)'
         }}
       ></div>
       
