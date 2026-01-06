@@ -1,9 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import ContactModal from './ContactModal';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -74,15 +76,14 @@ export default function Hero() {
               We help NZ companies take the surprise out of enterprise.
             </p>
 
-            {/* TODO: Add links when pages are ready */}
-            {/* <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">
-              <button className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors">
-                Grab a Coffee
+            <div className="flex flex-col sm:flex-row gap-4 lg:justify-start justify-center">
+              <button 
+                onClick={() => setIsModalOpen(true)}
+                className="bg-orange-500 text-white hover:bg-orange-600 px-8 py-4 rounded-md font-medium text-lg transition-colors"
+              >
+                Get in Touch
               </button>
-              <button className="bg-white/20 backdrop-blur-md border border-white/30 text-white hover:bg-white/30 px-8 py-4 rounded-md font-medium text-lg transition-colors">
-                See Real Results
-              </button>
-            </div> */}
+            </div>
           </div>
 
           {/* Why Lowcode NZ Section - Right side on desktop */}
@@ -132,6 +133,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      
+      <ContactModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </section>
   );
 }
