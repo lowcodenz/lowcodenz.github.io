@@ -10,6 +10,7 @@ interface FormspreeFormProps {
   messageLabel?: string;
   emailPlaceholder?: string;
   messagePlaceholder?: string;
+  onSuccess?: () => void;
 }
 
 export default function FormspreeForm({
@@ -19,7 +20,8 @@ export default function FormspreeForm({
   emailLabel = 'Your email:',
   messageLabel = 'Your message:',
   emailPlaceholder = 'your@email.com',
-  messagePlaceholder = 'Tell us about your project...'
+  messagePlaceholder = 'Tell us about your project...',
+  onSuccess
 }: FormspreeFormProps) {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
@@ -42,6 +44,9 @@ export default function FormspreeForm({
       if (response.ok) {
         setStatus('success');
         form.reset();
+        if (onSuccess) {
+          onSuccess();
+        }
         setTimeout(() => setStatus('idle'), 5000);
       } else {
         setStatus('error');
