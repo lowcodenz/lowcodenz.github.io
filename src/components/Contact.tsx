@@ -1,4 +1,11 @@
+'use client';
+
+import { useState } from 'react';
+import ContactModal from './ContactModal';
+
 export default function Contact() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,6 +31,14 @@ export default function Contact() {
             </p>
             
             <div className="space-y-3">
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="flex items-center justify-center gap-3 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors w-full"
+              >
+                <i className="fa-sharp-duotone fa-light fa-paper-plane text-xl"></i>
+                <span>Send us a Message</span>
+              </button>
+              
               <a 
                 href="mailto:hi@lowcode.nz"
                 className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors border border-gray-200"
@@ -173,6 +188,11 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      
+      <ContactModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </section>
   );
 }

@@ -43,7 +43,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               Get in Touch
             </h2>
             <p className="text-gray-600 mb-6">
-              We'll send you a confirmation and get back to you soon.
+              Write us a message, we look forward to hearing from you.
             </p>
 
             <FormspreeForm 
