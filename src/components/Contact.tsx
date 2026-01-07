@@ -40,15 +40,15 @@ export default function Contact() {
               </button>
               
               <a 
-                href="mailto:hi@lowcode.nz"
+                href="mailto:hi@lowcode.co.nz"
                 className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors border border-gray-200"
               >
                 <i className="fa-sharp-duotone fa-light fa-envelope text-xl text-orange-500"></i>
-                <span>hi@lowcode.nz</span>
+                <span>hi@lowcode.co.nz</span>
               </a>
               
               <a 
-                href="https://www.linkedin.com/in/jason-teunissen-537a9327"
+                href="https://www.linkedin.com/in/%F0%9F%A4%99jason-teunissen-537a9327/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium transition-colors border border-gray-200"
@@ -144,7 +144,7 @@ export default function Contact() {
               <h4 className="font-semibold text-orange-400 mb-6">Follow Us</h4>
               <div className="grid grid-cols-2 gap-4">
                 <a 
-                  href="https://www.linkedin.com/in/jason-teunissen-537a9327" 
+                  href="https://www.linkedin.com/in/%F0%9F%A4%99jason-teunissen-537a9327/" 
                   className="text-gray-300 hover:text-orange-400 transition-colors flex items-center space-x-2"
                   target="_blank"
                   rel="noopener noreferrer"
