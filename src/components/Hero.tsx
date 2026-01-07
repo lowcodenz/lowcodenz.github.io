@@ -70,7 +70,7 @@ export default function Hero() {
             
             <p className="text-2xl text-gray-200 mb-8 leading-relaxed lg:max-w-none max-w-4xl mx-auto lg:mx-0">
               Need to seize a time sensitive opportunity? <br/>
-              Recently aquired? and need to meet enterprise complience?<br/>
+              Recently acquired? and need to meet enterprise compliance?<br/>
               Still working on paper? <br/>
               <br/>
               We help NZ companies take the surprise out of enterprise.

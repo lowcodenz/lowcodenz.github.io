@@ -5,7 +5,7 @@ export default function LogoBanner() {
     { name: 'Vattenfall', src: '/images/logos/vattenfall.svg', industry: 'Energy' },
     { name: 'Kühne + Nagel', src: '/images/logos/keuhne nagel.svg', industry: 'Logistics' },
     { name: 'Stockholm Stad', src: '/images/logos/stockholmsstad.svg', industry: 'Government' },
-    { name: 'FC', src: '/images/logos/FC.svg', industry: 'Diary' },
+    { name: 'FC', src: '/images/logos/FC.svg', industry: 'Dairy' },
   ];
 
   return (
