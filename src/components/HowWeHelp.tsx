@@ -29,7 +29,7 @@ export default function HowWeHelp() {
           </h2>
           <p className="text-2xl text-gray-600 max-w-3xl mx-auto mb-10">
             As enterprise software partners we build bespoke software solutions that meet stringent enterprise and regulatory requirements. 
-            Every application is designed for compliance, security, and scalability—without sacrificing speed or flexibility.
+            Every application is designed for compliance, security, and scalability without sacrificing speed or flexibility.
           </p>
           <div className="bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed">
