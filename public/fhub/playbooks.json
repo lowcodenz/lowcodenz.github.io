@@ -1,0 +1,544 @@
+{
+  "playbooks": [
+    {
+      "id": "cmo-icp-refinement",
+      "title": "Ideal Customer Profile (ICP) Refinement",
+      "description": "Aligning product messaging with high-intent buyer personas.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 8000,
+        "max": 12000,
+        "currency": "USD"
+      },
+      "timeLength": "4-6 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cmo-demand-gen",
+      "title": "The Demand Gen Engine",
+      "description": "Setting up the paid and organic channels to create a predictable lead flow.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 18000,
+        "max": 24000,
+        "currency": "USD"
+      },
+      "timeLength": "90 days",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cmo-content-authority",
+      "title": "The Content Authority Loop",
+      "description": "Building a thought-leadership system that fuels SEO and social.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 15000,
+        "max": 20000,
+        "currency": "USD"
+      },
+      "timeLength": "8-10 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cmo-pmf-audit",
+      "title": "The Product-Market Fit Audit",
+      "description": "Identifying where the current marketing spend is being wasted on the wrong audience.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 6000,
+        "max": 9000,
+        "currency": "USD"
+      },
+      "timeLength": "3-4 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "cmo-attribution-setup",
+      "title": "Multi-Touch Attribution Setup",
+      "description": "Implementing the tech stack to prove which marketing dollars actually drive revenue.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 10000,
+        "max": 15000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cmo-brand-architecture",
+      "title": "The Brand Architecture Playbook",
+      "description": "Consolidating multiple product lines or sub-brands into a single, cohesive narrative.",
+      "category": "Marketing & Growth",
+      "offeredBy": {
+        "name": "Jessica Martinez",
+        "role": "Fractional CMO",
+        "experience": "15+ years B2B SaaS • Previously: VP Marketing at 3 unicorns"
+      },
+      "price": {
+        "min": 12000,
+        "max": 18000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cro-outbound-engine",
+      "title": "The Outbound Cold Outreach Engine",
+      "description": "Automated LinkedIn and email sequences to book 10+ meetings a month.",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 10000,
+        "max": 14000,
+        "currency": "USD"
+      },
+      "timeLength": "6 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cro-sales-handoff",
+      "title": "Sales-to-Success Handoff",
+      "description": "Standardizing how a closed deal moves from Sales to Implementation to prevent churn.",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 8000,
+        "max": 12000,
+        "currency": "USD"
+      },
+      "timeLength": "4-5 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "cro-discovery-script",
+      "title": "The Discovery Call Script",
+      "description": "A psychology-based framework for turning lookers into buyers on the first call.",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 5000,
+        "max": 8000,
+        "currency": "USD"
+      },
+      "timeLength": "2-3 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "cro-crm-hygiene",
+      "title": "CRM Data Hygiene & Automation",
+      "description": "Cleaning up Salesforce/HubSpot and automating Speed to Lead notifications.",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 7000,
+        "max": 11000,
+        "currency": "USD"
+      },
+      "timeLength": "4-6 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cro-partnership-sales",
+      "title": "The Partnership/Channel Sales Playbook",
+      "description": "Scaling revenue through 3rd party affiliates and strategic partners.",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 15000,
+        "max": 22000,
+        "currency": "USD"
+      },
+      "timeLength": "10-12 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cro-sales-comp",
+      "title": "The Sales Compensation Blueprint",
+      "description": "Designing commission structures that incentivize the right kind of growth (e.g., high-margin or multi-year).",
+      "category": "Sales & Revenue Operations",
+      "offeredBy": {
+        "name": "Marcus Thompson",
+        "role": "Fractional CRO",
+        "experience": "12+ years enterprise sales • Previously: VP Sales at 2 IPOs"
+      },
+      "price": {
+        "min": 6000,
+        "max": 10000,
+        "currency": "USD"
+      },
+      "timeLength": "3-4 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "cfo-investor-data-room",
+      "title": "The Investor-Ready Data Room",
+      "description": "Preparing all financial docs, cap tables, and legal for a Seed/Series A raise.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 12000,
+        "max": 18000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cfo-cash-flow",
+      "title": "Cash Flow Forecasting",
+      "description": "A 12-month rolling model to predict Burn vs. Runway and time the next hire.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 8000,
+        "max": 12000,
+        "currency": "USD"
+      },
+      "timeLength": "4-5 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cfo-unit-economics",
+      "title": "Unit Economics Audit",
+      "description": "Deep dive into LTV (Lifetime Value) and CAC (Customer Acquisition Cost) by channel.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 7000,
+        "max": 11000,
+        "currency": "USD"
+      },
+      "timeLength": "3-4 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "cfo-profitability-pivot",
+      "title": "The Profitability Pivot",
+      "description": "Identifying high-cost/low-margin areas of the business to cut for immediate EBITDA lift.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 10000,
+        "max": 15000,
+        "currency": "USD"
+      },
+      "timeLength": "5-6 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cfo-international-tax",
+      "title": "International Tax & Nexus Setup",
+      "description": "Managing the complexity of selling across multiple states or countries.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 15000,
+        "max": 25000,
+        "currency": "USD"
+      },
+      "timeLength": "8-12 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cfo-exit-readiness",
+      "title": "The Exit Readiness Playbook",
+      "description": "Cleaning up the books 18 months before a planned acquisition or IPO.",
+      "category": "Finance & Fundraising",
+      "offeredBy": {
+        "name": "Sarah Chen",
+        "role": "Fractional CFO",
+        "experience": "18+ years finance • Previously: CFO at 4 tech companies, 2 exits"
+      },
+      "price": {
+        "min": 20000,
+        "max": 35000,
+        "currency": "USD"
+      },
+      "timeLength": "12-16 weeks",
+      "commitment": "2-3 days/week"
+    },
+    {
+      "id": "coo-hiring-machine",
+      "title": "The Hiring Machine",
+      "description": "A standardized process for sourcing, vetting, and onboarding new talent without founder involvement.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 12000,
+        "max": 18000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "coo-os-implementation",
+      "title": "The OS Implementation (EOS/Scaling Up)",
+      "description": "Installing a meeting cadence and KPI tracking system across the whole company.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 15000,
+        "max": 22000,
+        "currency": "USD"
+      },
+      "timeLength": "10-12 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "coo-tech-stack",
+      "title": "Tech Stack Consolidation",
+      "description": "Auditing the 50+ SaaS subscriptions the company pays for and cutting the bloat.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 6000,
+        "max": 10000,
+        "currency": "USD"
+      },
+      "timeLength": "3-4 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "coo-crisis-turnaround",
+      "title": "The Crisis/Turnaround Playbook",
+      "description": "Stabilizing operations after a sudden leadership exit or market shift.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 20000,
+        "max": 30000,
+        "currency": "USD"
+      },
+      "timeLength": "8-12 weeks",
+      "commitment": "3-4 days/week"
+    },
+    {
+      "id": "coo-supply-chain",
+      "title": "Supply Chain & Vendor Optimization",
+      "description": "Renegotiating contracts and diversifying vendors to protect against shocks.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 10000,
+        "max": 16000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "coo-project-management",
+      "title": "The Project Management Reset",
+      "description": "Moving the team from messy Slack/Email threads to a structured tool like ClickUp or Asana.",
+      "category": "Operations & Scale",
+      "offeredBy": {
+        "name": "David Rodriguez",
+        "role": "Fractional COO",
+        "experience": "14+ years operations • Previously: COO at 3 scale-ups, 100+ to 500+ employees"
+      },
+      "price": {
+        "min": 7000,
+        "max": 11000,
+        "currency": "USD"
+      },
+      "timeLength": "4-5 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "cpo-mvp-launch",
+      "title": "The MVP Launch Blueprint",
+      "description": "Moving a new feature from idea to live in under 30 days.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Emily Park",
+        "role": "Fractional CPO",
+        "experience": "11+ years product • Previously: Head of Product at 2 unicorns"
+      },
+      "price": {
+        "min": 8000,
+        "max": 13000,
+        "currency": "USD"
+      },
+      "timeLength": "4-5 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "cpo-plg-loop",
+      "title": "Product-Led Growth (PLG) Loop",
+      "description": "Designing in-app experiences that encourage users to invite others.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Emily Park",
+        "role": "Fractional CPO",
+        "experience": "11+ years product • Previously: Head of Product at 2 unicorns"
+      },
+      "price": {
+        "min": 15000,
+        "max": 22000,
+        "currency": "USD"
+      },
+      "timeLength": "8-10 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "chro-culture-code",
+      "title": "The Culture Code & Employee Handbook",
+      "description": "Codifying values and remote-work policies to improve retention.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Rachel Foster",
+        "role": "Fractional CHRO",
+        "experience": "13+ years HR • Previously: VP People at 3 high-growth startups"
+      },
+      "price": {
+        "min": 9000,
+        "max": 14000,
+        "currency": "USD"
+      },
+      "timeLength": "5-6 weeks",
+      "commitment": "1-2 days/week"
+    },
+    {
+      "id": "chro-performance-review",
+      "title": "Performance Review Framework",
+      "description": "Moving from annual reviews to a continuous feedback loop using OKRs.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Rachel Foster",
+        "role": "Fractional CHRO",
+        "experience": "13+ years HR • Previously: VP People at 3 high-growth startups"
+      },
+      "price": {
+        "min": 8000,
+        "max": 12000,
+        "currency": "USD"
+      },
+      "timeLength": "4-6 weeks",
+      "commitment": "1 day/week"
+    },
+    {
+      "id": "chro-fractional-tech",
+      "title": "The Fractional Tech Stack",
+      "description": "Implementing HRIS/Payroll systems for a globally distributed workforce.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Rachel Foster",
+        "role": "Fractional CHRO",
+        "experience": "13+ years HR • Previously: VP People at 3 high-growth startups"
+      },
+      "price": {
+        "min": 10000,
+        "max": 16000,
+        "currency": "USD"
+      },
+      "timeLength": "6-8 weeks",
+      "commitment": "2 days/week"
+    },
+    {
+      "id": "chro-equity-design",
+      "title": "Equity & Stock Option Design",
+      "description": "Creating a Total Rewards package to compete with Big Tech talent.",
+      "category": "Product & People",
+      "offeredBy": {
+        "name": "Rachel Foster",
+        "role": "Fractional CHRO",
+        "experience": "13+ years HR • Previously: VP People at 3 high-growth startups"
+      },
+      "price": {
+        "min": 12000,
+        "max": 18000,
+        "currency": "USD"
+      },
+      "timeLength": "5-7 weeks",
+      "commitment": "2 days/week"
+    }
+  ]
+}

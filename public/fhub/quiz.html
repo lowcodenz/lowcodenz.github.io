@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Playbook - Fractional Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Fractional Hub</a></div>
+            <ul class="nav-links">
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="index.html#playbooks">Playbooks</a></li>
+                <li><a href="index.html#for-leaders">For Leaders</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Find Your Perfect Playbook</h1>
+                    <p>Answer a few questions to match with the right fractional leader and playbook for your business challenge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="playbook-card" style="padding: 50px;" id="quiz-container">
+                    <!-- Quiz Progress -->
+                    <div style="margin-bottom: 30px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <span style="color: var(--text-gray); font-size: 14px;">Question <span id="current-question">1</span> of 3</span>
+                            <button id="back-btn" style="display: none; background: none; border: none; color: var(--primary-blue); cursor: pointer; font-weight: 600;">← Back</button>
+                        </div>
+                        <div style="width: 100%; height: 8px; background: var(--light-bg); border-radius: 4px; overflow: hidden;">
+                            <div id="progress-bar" style="width: 33%; height: 100%; background: var(--gradient); transition: width 0.3s;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Question -->
+                    <div id="quiz-content">
+                        <h2 id="question-title" style="margin-bottom: 30px; color: var(--text-dark);"></h2>
+                        <div id="answers-container" style="display: flex; flex-direction: column; gap: 15px;">
+                            <!-- Answer buttons will be inserted here -->
+                        </div>
+                    </div>
+
+                    <!-- Results Section (hidden initially) -->
+                    <div id="results-section" style="display: none;">
+                        <h2 style="text-align: center; margin-bottom: 30px; color: var(--text-dark);">Your Recommended Playbooks</h2>
+                        <div id="results-container" style="display: flex; flex-direction: column; gap: 20px;">
+                            <!-- Results will be inserted here -->
+                        </div>
+                        <div style="text-align: center; margin-top: 40px;">
+                            <button id="restart-btn" class="btn btn-secondary" style="margin-right: 10px;">Start Over</button>
+                            <a href="index.html#contact" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Fractional Hub</div>
+                    <p class="footer-tagline">Fractional leaders. Real outcomes.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">𝕏</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+    <script src="quiz.js"></script>
+                    <ul>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="index.html#playbooks">Playbooks</a></li>
+                        <li><a href="index.html#for-leaders">For Leaders</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#terms">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fractional Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
